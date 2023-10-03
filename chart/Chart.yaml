@@ -1,0 +1,21 @@
+apiVersion: v2
+name: pgp-buddy
+version: 0.1.0
+appVersion: 0.1.0
+description: PGP Buddy is a simple web application that allows you to encrypt and decrypt PGP messages.
+keywords:
+  - pgp
+  - gpg
+  - encryption
+  - decryption
+  - web
+sources:
+  - https://github.com/imdevin567/pgp-buddy
+maintainers:
+  - name: imdevin567
+engine: gotpl
+type: application
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added support for sidecar containers via extraContainers
